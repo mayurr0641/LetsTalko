@@ -1,0 +1,21 @@
+*{margin: 0;}
+.body{padding: 2%; margin: 1% }
+
+#search input[type=text]{padding: 13px; border: 2px #eee solid; width: 68%;}
+#search input[type=submit]{padding: 13px; border: 2px #fff solid; width:  20%}
+
+.contact-list{min-height: calc(90vh - 80px);}
+
+/* for contacts */
+h2{margin: 40px 0}
+.data{display: block;}
+.data:hover{border-bottom: 2px #4caf50 solid}
+.data img{width: 50px; border-radius: 50%; margin-right: 15px}
+.data h4{display: inline;}
+
+footer{ background: #333; border-top: 2px #eee solid; padding: 20px}
+footer ul {list-style: none; display: flex; justify-content: space-between;}
+
+footer a{padding: 10px; color: #f2f2f2; text-align: center; text-decoration: none;}
+
+footer a:hover{background: #f2f2f2; color: #333}
