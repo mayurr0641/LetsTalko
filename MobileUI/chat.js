@@ -1,4 +1,4 @@
-var addMsg = document.forms[0];
+var addMsg = document.forms[1];
 var ul = document.querySelector('.chatBox ul');
 addMsg.addEventListener('submit', function(a){
 	a.preventDefault();
@@ -15,4 +15,3 @@ addMsg.addEventListener('submit', function(a){
 	
 
 	});
-
