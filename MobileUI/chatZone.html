@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChatZone - page</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="chat.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="body">
+	
+
+	<form id="search">
+		<input type="text" placeholder="Search for people...">
+		<input type="submit" value="search">
+	</form>
+
+<!--	contact list-->
+	
+	<div class="contact-list">
+
+		<h2>Contacts</h2>
+
+			<div class="data">
+				<img src="profile.jpg">
+				<h4>Admin</h4>
+			</div>
+
+			<div class="data">
+				<img src="profile.jpg">
+				<h4>Nikhil</h4>
+			</div>
+
+			<div class="data">
+				<img src="profile.jpg">
+				<h4>Rishabh</h4>
+			</div>
+	</div>
+
+	<!-- messenger-->
+
+	<div class="chat">
+		<h2>Message</h2>
+
+			<div onclick="msg()" class="data">
+				<img src="profile.jpg">
+				<h4>Mayur</h4>
+			</div>
+
+			<div class="data">
+				<img src="profile.jpg">
+				<h4>Mayur</h4>
+			</div>
+
+	</div>
+
+	<!-- Chat Box -->
+
+	<div class="msg"> 
+		<header onclick="back()">
+			<img src="profile.jpg">
+			<h3>Mayur</h3>
+
+<!--
+			<span>Media</span>
+				<div class="hidden">
+					<span class="show">Button</span>
+					<span class="hide">Video Call</span> 
+					<span class="hide">Clear Chat</span>
+					<span class="hide">Block</span>
+					<span class="hide">Remove contact</span>
+				</div>
+-->
+		</header>
+
+		<div class="chatBox">
+			<ul>
+				
+			</ul>
+		</div>
+
+
+		<form class="send">
+			<input type="text" placeholder="write something">
+			<input type="submit" value="send">
+		</form>
+	</div>
+
+</div>
+	<footer>
+
+		<ul>
+			<li><span onclick="contact()">Contacts</span></li>
+			<li><span onclick="chats()">Chats</span></li>
+			<li><span>Music</span></li>
+			<li><span>Account</span></li>
+		</ul>
+</footer>
+
+
+<script src="mobi.js"></script>
+<script src="chat.js"></script>
+</body>
+</html>
